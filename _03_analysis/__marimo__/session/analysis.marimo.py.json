@@ -1,0 +1,48 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "3b960faaade8df46b62131feb15130f6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Hbol-0' random-id='7738bf71-386d-df12-6869-62eaec2412ae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;_marimo_row_id&#92;&quot;:0,&#92;&quot;title&#92;&quot;:&#92;&quot;Mickey 17&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-01-09&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Prime&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:7,&#92;&quot;runtime_mins&#92;&quot;:137,&#92;&quot;genre&#92;&quot;:&#92;&quot;Sci-fi, Comedy&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2025},{&#92;&quot;_marimo_row_id&#92;&quot;:1,&#92;&quot;title&#92;&quot;:&#92;&quot;Blade Runner&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-01-17&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Sflix&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:8,&#92;&quot;runtime_mins&#92;&quot;:110,&#92;&quot;genre&#92;&quot;:&#92;&quot;Sci-fi, Action&#92;&quot;,&#92;&quot;release_year&#92;&quot;:1982},{&#92;&quot;_marimo_row_id&#92;&quot;:2,&#92;&quot;title&#92;&quot;:&#92;&quot;Marty Supreme&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-02-12&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Theatre&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:7,&#92;&quot;runtime_mins&#92;&quot;:150,&#92;&quot;genre&#92;&quot;:&#92;&quot;Sport, Drama&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2025},{&#92;&quot;_marimo_row_id&#92;&quot;:3,&#92;&quot;title&#92;&quot;:&#92;&quot;The Great Gatsby&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-02-25&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Other&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:4,&#92;&quot;runtime_mins&#92;&quot;:143,&#92;&quot;genre&#92;&quot;:&#92;&quot;Romance&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2013},{&#92;&quot;_marimo_row_id&#92;&quot;:4,&#92;&quot;title&#92;&quot;:&#92;&quot;Casino Royale&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-03-13&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Netflix&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:9,&#92;&quot;runtime_mins&#92;&quot;:138,&#92;&quot;genre&#92;&quot;:&#92;&quot;Action&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2006},{&#92;&quot;_marimo_row_id&#92;&quot;:5,&#92;&quot;title&#92;&quot;:&#92;&quot;Blade Runner 2049&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-03-14&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Sflix&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:9,&#92;&quot;runtime_mins&#92;&quot;:163,&#92;&quot;genre&#92;&quot;:&#92;&quot;Sci-fi&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2017},{&#92;&quot;_marimo_row_id&#92;&quot;:6,&#92;&quot;title&#92;&quot;:&#92;&quot;Quantum of Solace&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-03-20&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Netflix &#92;&quot;,&#92;&quot;my_rating&#92;&quot;:6,&#92;&quot;runtime_mins&#92;&quot;:116,&#92;&quot;genre&#92;&quot;:&#92;&quot;Action&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2008},{&#92;&quot;_marimo_row_id&#92;&quot;:7,&#92;&quot;title&#92;&quot;:&#92;&quot;Memento&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-03-24&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Prime&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:10,&#92;&quot;runtime_mins&#92;&quot;:113,&#92;&quot;genre&#92;&quot;:&#92;&quot;Crime, Mystery &#92;&quot;,&#92;&quot;release_year&#92;&quot;:2000},{&#92;&quot;_marimo_row_id&#92;&quot;:8,&#92;&quot;title&#92;&quot;:&#92;&quot;Hansel and Gretel Witch Hunters&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-03-25&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Sflix&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:6,&#92;&quot;runtime_mins&#92;&quot;:88,&#92;&quot;genre&#92;&quot;:&#92;&quot;Horror, Action&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2013},{&#92;&quot;_marimo_row_id&#92;&quot;:9,&#92;&quot;title&#92;&quot;:&#92;&quot;Skyfall&#92;&quot;,&#92;&quot;date_watched&#92;&quot;:&#92;&quot;2026-03-26&#92;&quot;,&#92;&quot;platform&#92;&quot;:&#92;&quot;Netflix&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:8,&#92;&quot;runtime_mins&#92;&quot;:143,&#92;&quot;genre&#92;&quot;:&#92;&quot;Action&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2012}]&quot;' data-total-rows='59' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;date_watched&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;platform&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;my_rating&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;runtime_mins&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;genre&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;release_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-selection='&quot;multi&quot;' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='true' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "09f56e05cfe275acfe0dae8da246c332",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='a06e6723-4edf-b330-73d5-56aa99705eaf'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;release_year&#92;&quot;:59.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2013.084745762712},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;release_year&#92;&quot;:14.204525912531055},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;release_year&#92;&quot;:1957.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2007.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2017.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2025.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2026.0}]&quot;' data-total-rows='8' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;release_year&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "230dd145ebf119416d3695ec7224b484",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='9cfc9c08-6e99-d74a-4f04-0930b95e53f7'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:59.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:7.3559322033898304},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:1.9006597027530203},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:2.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:6.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:7.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:9.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;my_rating&#92;&quot;:10.0}]&quot;' data-total-rows='8' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;my_rating&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
