@@ -1,18 +1,29 @@
+import pathlib
+import sys
 import csv
 import os
-from datetime import datetime, date
 import pandas as pd
+import json
+from datetime import datetime, date
+from dotenv import load_dotenv
 
-sheet_id = "1q-4ns4Zt1z7uW-Zlo8ARcu6rioBHYggqvDg0EKLtaR0"
+SUBDIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SUBDIR)
+SCRIPTS_PATH = os.path.join(PROJECT_ROOT, "_02_scripts")
+if PROJECT_ROOT not in sys.path:
+    sys.path.append(PROJECT_ROOT)
+
+load_dotenv()
+credential_filename = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "key.json")
+KEY_PATH = os.path.join(PROJECT_ROOT, credential_filename)
 
 #Setting up the connection to google sheets using my json key.
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets','https://www.googleapis.com/auth/drive']
-SERVICE_ACCOUNT_FILE = 'key.json'
-creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-SPREADSHEET_ID = "1q-4ns4Zt1z7uW-Zlo8ARcu6rioBHYggqvDg0EKLtaR0"
+creds = service_account.Credentials.from_service_account_file(KEY_PATH, scopes=SCOPES)
+SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
 
 service = build('sheets', 'v4', credentials=creds)
 
